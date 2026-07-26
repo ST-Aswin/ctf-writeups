@@ -52,8 +52,8 @@ ssh -p 2220 bandit0@bandit.labs.overthewire.org
     since i have learnt the basic usage of ssh i started solving it by typing the 
     cmd SSH then specifying the port because in the problem they have mentioned to 
     use the port 2220 which i did .
-    Then i typed the username and the webaddress i want to log into and then i pressed
-    enter . it asked for the passphrase and i gave it the passphrase and I have successfully
+    Then i typed the username and the hostname i want to log into and then i pressed
+    enter . it asked for the password and i gave it the password and I have successfully
     logged into the bandit.labs.overthewire.org using ssh .
 
 ---
