@@ -91,6 +91,18 @@ Welcome to OverTheWire!
 ## What I Learned
   * SSH 
   * Basic Terminal commands ls , cat , exit
+  - `ls` lists the contents of the current directory.
+  - `cat` prints the contents of a file.
+  - After authenticating through SSH, commands execute on the remote system rather than on my local computer.
+  - `exit` terminates the remote shell session.
+---
+
+## Observations
+
+- I was placed directly into the home directory.
+- The required file already existed.
+- No directory navigation was required.
+
 ---
 
 ## References
