@@ -1,0 +1,11 @@
+Platform - OverTheWire
+Difficulty - Bandit
+Level0 
+  Hostname: bandit.labs.overthewire.org
+  username: bandit0
+  password: bandit0
+
+Level1
+  Hostname: bandit.labs.overthewire.org
+  username: bandit1
+  password: 6y2kwnwK6grgvwvpvLaa2T1cpFEKOhNR

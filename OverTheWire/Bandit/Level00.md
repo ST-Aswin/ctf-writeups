@@ -80,3 +80,11 @@ ssh -p 2220 bandit0@bandit.labs.overthewire.org
 - Port
 - DNS
 - Authentication
+
+## Notes
+- Platform - OverTheWire
+- Difficulty - Bandit
+- Level0 
+    Hostname: bandit.labs.overthewire.org
+    username: bandit0
+    password: bandit0
