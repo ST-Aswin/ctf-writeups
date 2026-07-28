@@ -1,5 +1,6 @@
 ---
-Platform: OverTheWire Game: Bandit
+Platform: OverTheWire 
+Game: Bandit
 Level: 6
 Date: 2026-07-28
 Difficulty: Beginner
