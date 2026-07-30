@@ -44,13 +44,13 @@ Topics:
 
 ## Commands Used
 
-<Terminal output>
+<Terminaloutput>
 
 ```bash
 
 ```
 
-</Terminal output>
+</Terminaloutput>
 
 ---
 
