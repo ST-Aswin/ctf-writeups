@@ -2,7 +2,7 @@
 Platform: OverTheWire 
 Game: Bandit
 Level: 8
-Date: 2026-07-29
+Date: 2026-07-30
 Difficulty: Beginner
 Topics:
   - SSH
@@ -14,31 +14,53 @@ Topics:
 ---
 
 # Challenge
-
+ The password for the next level is stored in the file data.txt next to the word millionth. 
+ Acquire the password required for the next level.
 
 ## Platform
-
+ * OverTheWire
 
 ## Level
-
+ * bandit7
 
 ## Difficulty
-
+ * bandit - beginner
+ 
 ---
 
 ## Objective
+ * Acquire the password required for the next lvl .
+ * review the commands learned in the past levels .
 
 ---
 
 ## Skills Practiced
-
+ * SSH
+ * Terminal 
+ * commands : ls , grep , cat
+ 
 ---
 
 ## Tools Used
+ * ssh 
+ * Terminal
+ * ls
+ * grep 
+ * cat
 
 ---
 
+## Key Takeaways
+
+- grep searches lines matching a pattern.
+- ls -la is usually the first command to inspect a directory.
+- Read the challenge carefully before searching the filesystem.
+
 ## Observations
+
+ * The file containing the password required for the next level is sitting right there in the home directory . 
+ * The file has lots of lines .
+ * The game has given me the hint that the password is next to the word ` millionth `. 
 
 ---
 
@@ -204,23 +226,51 @@ bandit7@bandit:~$
  
   * The data.txt contains lots of lines . and in one of those lines is the password i am looking for . and The
     game also mentioned that the password is next to word ` millionth ` .so i used grep to grab the line which
-    have the word ` millionth ` .and that's how i find the password for the next level .
+    have the word ` millionth ` .and that's how i find the password for the next level . Then i exit the remote
+    host by pressing `ctrl + d `. 
+
+
+| PART | usage |
+|-----|-------|
+| ssh | open a ssh connection |
+| bandit7 | username |
+| @ | used to separate hostname and the username |
+| bandit.lab.overthewire.org | Remote Host |
+| -p 2220 | -p is used to specifty the port and 2220 is the port we are connnecting to |
+| ls | lists the contents of the current dir |
+| ls -a | lists the contents including the hidden files |
+| ls -l | lists the contesnts of the current folder in a list format along with useful info |
+| cat |  command used to read and display the contents of one or more files. |
+|     |It can also concatenate multiple files and write the combined output to standard output. |
+|  data.txt | the file containing the password |
+| grep | global regular expression , a command that grabs the lines that have the pattern you specified |
+| -e | option used to specify the pattern |
+
 
  ---
 
-
 ## What I Learned
+
+ * I learned how to use the command ` grep ` .
 
 ---
 
 ## References
-
----
-
-## New Concepts
-
+ 
+ * website - https://overthewire.org/wargames/bandit/bandit8.html
 
 ---
 
 ## Notes
 
+ username : bandit7
+ hostname : bandit.labs.overthewire.org
+ 
+--- 
+
+## Lesson Learned
+
+ * consistency matters more than anything in computer world because sometimes you will feel like you don't make 
+   progress even if you are making progress .
+
+ * I should review the commands i learned here and there .or else i would forget it .
