@@ -334,7 +334,7 @@ bandit6@bandit:/$
 | PART | usage |
 |-----|-------|
 | ssh | open a ssh connection |
-| bandit4 | username |
+| bandit6 | username |
 | @ | used to separate hostname and the username |
 | bandit.lab.overthewire.org | Remote Host |
 | -p 2220 | -p is used to specifty the port and 2220 is the port we are connnecting to |
