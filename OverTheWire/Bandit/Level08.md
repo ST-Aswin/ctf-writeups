@@ -41,13 +41,17 @@ Topics:
 ## Observations
 
 ---
-<details>
+
 ## Commands Used
+
+<Terminal output>
 
 ```bash
 
 ```
-</details>
+
+</Terminal output>
+
 ---
 
 
