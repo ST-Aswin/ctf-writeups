@@ -173,10 +173,38 @@ bandit7@bandit:~$
 <details>
 <summary> Terminal Output : ls -la </summary>
 
+``` bash 
+bandit7@bandit:~$ ls -la
+total 4108
+drwxr-xr-x   2 root    root       4096 Jun 24 14:59 .
+drwxr-xr-x 150 root    root       4096 Jun 24 15:02 ..
+-rw-r--r--   1 root    root        220 Feb 13 12:16 .bash_logout
+-rw-r--r--   1 root    root       3851 Jun 24 14:50 .bashrc
+-rw-r--r--   1 root    root        807 Feb 13 12:16 .profile
+-rw-r-----   1 bandit8 bandit7 4184396 Jun 24 14:59 data.txt
+bandit7@bandit:~$ 
+```
 
 </details>
+ 
+  * The game said the password is in the file named data.txt . so first i wanted know where it is located .
+    so before trying `find / -name data.txt` this command i used ls -la to list the files and folders including 
+    the hidden ones on the home dir . the 'data.txt' was sitting right in the home folder so no need for 
+    complex searching .
 
+<details> 
+<summary> Terminal Output : grep -e "millionth" data.txt </summary>
 
+``` bash 
+bandit7@bandit:~$ grep -e "millionth" data.txt 
+millionth	VR1ljMayciFxbnUokuQmJFw6QC9VKtub
+bandit7@bandit:~$
+```
+</details>
+ 
+  * The data.txt contains lots of lines . and in one of those lines is the password i am looking for . and The
+    game also mentioned that the password is next to word ` millionth ` .so i used grep to grab the line which
+    have the word ` millionth ` .and that's how i find the password for the next level .
 
  ---
 
