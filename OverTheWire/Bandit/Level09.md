@@ -79,7 +79,7 @@ bandit8@bandit.labs.overthewire.org's password:
 ```
 </details>
 
-  * First i Logged into the level bandit8 one the remote host using the password i acquired in the previous level .
+  * First i Logged into the level bandit8 on the remote host using the password i acquired in the previous level .
 
 <details> 
 <summary> Terminal Output : ls -la </summary>
