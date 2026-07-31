@@ -57,6 +57,7 @@ Topics:
 ---
 
 ## Commands Used
+
 <details>
 <summar> Terminal output: ./next_lvl.sh bandit9 </summary>
 
