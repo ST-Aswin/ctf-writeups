@@ -196,11 +196,6 @@ bandit9@bandit:~$
 
 ---
 
-## New Concepts
-
-
----
-
 ## Notes
  Hostname : bandit.labs.overthewire.org
  username : bandit9
