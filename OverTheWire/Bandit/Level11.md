@@ -1,7 +1,7 @@
 ---
 Platform: OverTheWire 
 Game: Bandit
-Level: 10
+Level: 11
 Date: 2026-08-02
 Difficulty: Beginner
 Topics:
