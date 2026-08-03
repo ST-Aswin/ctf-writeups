@@ -87,7 +87,7 @@ drwxr-xr-x 150 root     root     4096 Jun 24 15:02 ..
 bandit11@bandit:~$
 
 ```
-<details>
+</details>
  
   * Then i used the command `ls` with `-la` flag to list the contents of the current dir along with some useful information.
 
