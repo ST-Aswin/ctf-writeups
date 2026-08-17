@@ -22,7 +22,7 @@ Topics:
 
 ## Level
 
- * Level16
+ * Level15 => Level16
 
 ## Difficulty
 
