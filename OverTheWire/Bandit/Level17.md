@@ -97,8 +97,8 @@ SF:nu%r(GenericLines,32,"Wrong!\x20Please\x20enter\x20the\x20correct\x20cu # Not
 </details>
 
   * As The challenge mentioned that i have to submit the password of this current level to the correct port in the range of 31000 to 32000.
-    I begin by scanning the ports in those range using the utility `nmap` .There were 5 ports in those range were listening but i don't
-    what service they serve . so i ran the `nmap` utility once again with `-sv` flag to find out what kind of service those 5 ports offer .
+    I begin by scanning the ports in those range using the utility `nmap` .There were 5 ports in those range were listening but i don't know
+    what service they serve . so i ran the `nmap` utility once again with `-sV` flag to find out what kind of service those 5 ports offer .
     After waiting for 2 whole minutes i got an output but now the unknown is replaced with some useful information .out of the 5 ports only
     2 ports are speaking ssl so the port which contains the credentials for the next level must be one of those 2 ports which are 31518 and 31790
     . i chose port 31790 to check first because in the output the service field of 31790 said `ssl/unknown` which is kind of suspicious plus
